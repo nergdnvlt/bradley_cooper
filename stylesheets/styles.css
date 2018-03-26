@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+.box1 {
+    flex-direction: row
+}
+
+.intro-box {
+  border: 2px solid black;
+}
+
+.intro-box p {
+  font-size: 12px;
+}

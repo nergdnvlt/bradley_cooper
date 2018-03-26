@@ -1,14 +1,48 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex_container {
+  align-self: left;
   display: flex;
   flex-direction: column;
 }
 
+.photo {
+  border: 2px solid black;
+  align-self: right;
+  /* justify-content: right; */
+  height: 900px;
+  width: 100px;
+}
+
 .intro-box {
   border: 2px solid black;
-  height: 100px;
-  width: 300px;
+  flex: 2 0 0;
 }
 
 .intro-box p {
   font-size: 12px;
+}
+
+.profile-box {
+  border: 2px solid black;
+  justify-content: center;
+  flex: 1 0 0;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row:
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row:
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row:
 }

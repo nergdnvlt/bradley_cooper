@@ -1,13 +1,12 @@
-body {
+.flex_container {
   display: flex;
-}
-
-.box1 {
-    flex-direction: row
+  flex-direction: column;
 }
 
 .intro-box {
   border: 2px solid black;
+  height: 100px;
+  width: 300px;
 }
 
 .intro-box p {
